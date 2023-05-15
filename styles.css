@@ -1,0 +1,88 @@
+body {
+    background-color: black;
+    font-family: 'Merriweather', serif;
+    color: sandybrown;
+}
+
+.crew {
+    width: 30%;
+    height: auto;
+    display: inline-block;
+    border-radius: 5%;
+}
+
+.intro {
+    display: inline-block;
+}
+
+h2 {
+    font-size: 60px;
+}
+
+h3 {
+    font-size: 22px;
+}
+.logo {
+    width: 60%;
+    height: auto;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar {
+    background-color: sandybrown;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-family: Ysabeau, serif;
+    font-size: 35px;
+}
+
+/* Style for the title */
+.navbar-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Style for the navigation links */
+.navbar-links {
+    display: flex;
+    gap: 20px;
+}
+
+/* Style for individual navigation link */
+.navbar-link {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 14px;
+}
+
+.footer {
+    background-color: sandybrown;
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Style for the contact links */
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+/* Style for individual contact link */
+.footer-link {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
