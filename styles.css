@@ -1,7 +1,7 @@
 body {
     background-color: black;
     font-family: 'Merriweather', serif;
-    color: sandybrown;
+    color: antiquewhite;
 }
 
 .crew {
@@ -25,14 +25,13 @@ h3 {
 .logo {
     width: 60%;
     height: auto;
-    align-items: center;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
 .navbar {
-    background-color: sandybrown;
+    background-color: white;
     color: black;
     display: flex;
     justify-content: space-between;
@@ -45,6 +44,7 @@ h3 {
 .navbar-title {
     font-size: 24px;
     font-weight: bold;
+    text-decoration: none;
 }
 
 /* Style for the navigation links */
@@ -86,3 +86,39 @@ p {
     color: black;
     font-size: 18px;
 }
+
+th {
+    border: 2px solid sandybrown;
+  }
+  
+  table {
+    text-align: center;
+    margin: 20px auto;
+  }
+  
+  td {
+    border: 2px solid sandybrown;
+    width: 300px;
+  }
+
+  .heading {
+    text-align: center;
+  }
+
+  .home {
+    text-decoration: none;
+    color: black;
+  }
+
+  a:hover {
+    color: sandybrown;
+  }
+
+  .form {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    margin: 150px auto;
+  }
+
