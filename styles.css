@@ -119,6 +119,11 @@ th {
     margin-left: auto;
     margin-right: auto;
     width: 15%;
+    margin: 125px auto;
+  }
+
+  .mission {
+    display: block;
     margin: 150px auto;
   }
 
